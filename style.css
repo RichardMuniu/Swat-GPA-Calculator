@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+
+body, html {
+    height: 100%;
+    font-family: 'Varela', sans-serif;
+}
+  
+* {
+box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url("https://www.swarthmore.edu/sites/default/files/styles/standard_page_header/public/assets/images/equal-opportunity/page_hdr_DSC_0206_1756x1170.jpg?itok=XorFz2os");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    margin: 200px auto;
+    max-width: 720px;
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.clr {
+    background-color: rgb(226, 195, 213);
+    padding: 16px 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+#output {
+    padding: 10px;
+}
